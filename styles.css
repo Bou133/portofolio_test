@@ -1,0 +1,22 @@
+
+
+a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+#head:hover {
+    background-color: rgb(0.1, 0.1,0.1,0.1);
+    color: rgb(7, 6, 6);
+    border: solid 1px black;
+    
+}
+
+
+
+img:hover {
+    background-image: url(images/plusbackground.jpg);
+    width:99%;
+    transform: background-image 0.4 ease;
+}
