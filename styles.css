@@ -1,9 +1,19 @@
 
 
-a:hover {
+#anav:hover {
     background-color: rgb(5, 4, 4);
     color: black;
     border-radius: 5px;
+}
+
+#monimage {
+    rotate: 10deg;
+    transform: rotate 0.5 ease;
+}
+
+#monimage:hover {
+    rotate: 25deg;
+    transform: rotate 0.5 ease;
 }
 
 #head:hover{
