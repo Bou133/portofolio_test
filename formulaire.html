@@ -66,56 +66,39 @@ img:hover {
         </div>
     </nav>
     <div class="d-flex justify-content-center align-content-center align-item-center py-5 my-5 bg-warning col-md-4" >
-    <form action="" >
+    <form action="/action_page.php" class="was-validated">
         <div class="my-4">
-            <label for="name">entrez votre nom</label>
+            <label for="name">nom</label>
             <input type="text" placeholder="entrez votre nom" id="name" name="text" class="form-control required">
-            <div class="valid-feedback"></div>
-            <div class="invalid-feedback"></div>
+            <div class="valid-feedback">valid</div>
+            <div class="invalid-feedback">invalid</div>
         </div>
         <div class="my-4">
-            <label for="firstname">entrez votre prénom</label>
-            <input type="firstname" placeholder="entrez votre prénom" id="firstname" name="email" class="form-control required">
-            <div class="valid-feedback"></div>
-            <div class="invalid-feedback"></div>
+            <label for="firstname">prénom</label>
+            <input type="text" placeholder="entrez votre prénom" id="firstname" name="firstname" class="form-control" required">
+            <div class="valid-feedback">valid</div>
+            <div class="invalid-feedback">invalid</div>
         </div>
         <div class="my-4">
-            <label for="">ville</label>
-            <input type="text">
-            <div class="valid-feedback"></div>
-            <div class="invalid-feedback"></div>
+            <label for="ville">ville</label>
+            <input type="text" name="ville" id="ville"  placeholder="entrez votre ville" required >
+            <div class="valid-feedback" style="color: green;">valid</div>
+            <div class="invalid-feedback" style="color:red">invalid</div>
         </div>
         <div class="my-4">
-            <label for="">numero</label>
-            <input type="text">
-            <div class="valid-feedback"></div>
-            <div class="invalid-feedback"></div>
+            <label for="numero">numero</label>
+            <input type="text" name="numero" id="numero" placeholder="entrez votre numero" required  >
+            <div class="valid-feedback" style="color:green">valid</div>
+            <div class="invalid-feedback" style="color:red">invalid</div>
         </div>
         <div class="my-4">
-            <label for="name">entrez votre nom</label>
-            <input type="text" placeholder="entrez votre nom" id="name" name="text" class="form-control required">
-            <div class="valid-feedback"></div>
-            <div class="invalid-feedback"></div>
+            <label for="">entrez votre email</label>
+            <input type="email" placeholder="entrez votre email" id="name" name="email" class="form-control required">
+            <div class="valid-feedback" style="color: green;"> valid</div>
+            <div class="invalid-feedback" style="color: red;"> invalid </div>
         </div>
-        <div class="my-4">
-            <label for="firstname">entrez votre prénom</label>
-            <input type="firstname" placeholder="entrez votre prénom" id="firstname" name="email" class="form-control required">
-            <div class="valid-feedback"></div>
-            <div class="invalid-feedback"></div>
-        </div>
-        <div class="my-4">
-            <label for="">ville</label>
-            <input type="text">
-            <div class="valid-feedback"></div>
-            <div class="invalid-feedback"></div>
-        </div>
-        <div class="my-4">
-            <label for="">numero</label>
-            <input type="text">
-            <div class="valid-feedback"></div>
-            <div class="invalid-feedback"></div>
-        </div>
-        <button class="my-4" type="submit">valider</button>
+        
+        <button class="my-4" type="submit" >valider</button>
     </form>
     </div>
     
